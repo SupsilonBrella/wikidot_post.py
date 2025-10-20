@@ -7,7 +7,7 @@ class WikidotPOST:
     """
 
     LOGIN_URL = "https://www.wikidot.com/default--flow/login__LoginPopupScreen"
-    TEST_URL = "https://www.wikidot.com/my/account"
+    TEST_URL = "https://www.wikidot.com/account/activity"
     POST_URL_TEMPLATE = "https://{subsite}/ajax-module-connector.php"
     TARGET_URL_TEMPLATE = "https://{subsite}/"
 
