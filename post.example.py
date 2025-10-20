@@ -5,7 +5,7 @@ try:
     api.login()
     result = api.post_page(
         title="测试标题",
-        page="test_page",
+        page="test-page",
         source="正文内容",
         comments="自动发文测试"
     )
