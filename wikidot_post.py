@@ -21,7 +21,6 @@ class WikidotPOST:
         self.token7 = None
 
     def login(self) -> None:
-        """登录 Wikidot"""
         post_data = {
             "login": self.username,
             "password": self.password,
